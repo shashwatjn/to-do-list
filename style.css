@@ -2,7 +2,6 @@ body {
   background: #005543;
 }
 .container {
-  /* for making list look sophisticated */
   max-width: 400px;
 }
 input[type=text],/*for input text when out of focus and in focus*/
