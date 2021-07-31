@@ -1,0 +1,42 @@
+body{
+    background: #004d3c;
+}
+.container{ 
+    /* for making list look sophisticated */
+    max-width: 400px;
+}
+input[type=text],/*for input text when out of focus and in focus*/
+input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background: #e2d2c4;
+    max-width: 400px;
+}
+.todos li{
+    background: #22b175f6;
+
+}
+.delete{
+    cursor: pointer;
+}
+
+ /* button for light mode and default */
+ .fas.fa-sun{
+    float: right;
+    margin-top: 14px;
+    margin-right: 100px;
+    padding: 5px;
+    
+}
+
+
+/* button for dark mode */
+.fas.fa-moon{
+    float: right;
+    display: none;
+    margin-top: auto;
+    margin-right: 100px;
+    padding: 5px;  
+    }
+
+   
